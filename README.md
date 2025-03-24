@@ -1,8 +1,35 @@
-# engtech-dewcboks
+# DEWCBoKS - DEWC Body of Knowledge Store
 
-1. Install MkDocs
-    pip install mkdocs
-2. Run locally
-    mkdocs serve
-3. Access at
-    http://localhost:8000/
+Using GitHub Pages and MKDocs.
+
+## GitHub Pages Info
+
+This site is configured to be saved in the `main` branch and served from the
+`gh-pages` branch, both from the root directory.
+
+## MKDocs Useful Commands
+
+Install MkDocs\
+`pip install mkdocs`
+
+Run from root dir, containing mkdocs.yml.
+
+Serve docs site to browser for dev, available at `http://localhost:8000/`\
+`mkdocs serve`
+
+Build a static site into the `site` dir\
+`mkdocs build --clean`
+
+Build and deploy static site into GitHub Pages\
+`mkdocs gh-deploy --clean`
+
+## Deployment Workflow
+
+1. Ensure all changes are on the `main` branch.
+2. Deploy changes to GitHub Pages by running `mkdocs gh-deploy --clean`.
+3. Do not edit the contents on the `gh-pages` branch manually, any changes here
+   will be lost at the next deployment.
+
+## MKDocs Theme Customisations
+
+https://squidfunk.github.io/mkdocs-material/customization/
