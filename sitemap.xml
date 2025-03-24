@@ -6,7 +6,12 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://dewcservices.github.io/engtech-dewcboks/Test/thetest/</loc>
+         <loc>https://dewcservices.github.io/engtech-dewcboks/pipeline/</loc>
+         <lastmod>2025-03-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://dewcservices.github.io/engtech-dewcboks/Tools/acceptancecriteria/</loc>
          <lastmod>2025-03-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
